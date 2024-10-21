@@ -8,7 +8,7 @@ Main Color - #3C85FA
 /*  ---------------Box Sizing-----------------  */
 
 html {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 *,
 *:before,
@@ -56,7 +56,7 @@ img {
 /*  --------------- Global Styles -----------------  */
 
 body {
-  font-family: "Gabarito", sans-serif;
+  font-style:italic;
   margin: 0;
   /*
   background-image: url("https://assets.codepen.io/7248/grey-kitten_1.jpg");
@@ -88,6 +88,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox=
 }
 
 header.primary h1 {
+  font-style:italic;
   font-size: 2.4rem;
   /* top | left and right | bottom */
   margin: 20px 0 0;
@@ -96,6 +97,7 @@ header.primary h1 {
 header.primary h1 a {
   color: #ffffff;
   text-decoration: none;
+  font-style:oblique;
 }
 
 header.primary h2 {
